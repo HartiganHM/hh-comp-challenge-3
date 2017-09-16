@@ -5,29 +5,75 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<script src="https://use.fontawesome.com/44d59ce201.js"></script>
 </head>
 
 <body>
 	<aside class="user-console">
-		user console
-		<section class="user-image"></section>
-		<section class="user-main"></section>
-		<section class="user-admin"></section>
-		<section class="user-categories"></section>
+		<section class="user-id">
+			<div class="user-image"></div>
+			<p>Torin Hartigan</p>
+		</section>
+		<section class="user-main">
+			<dl>
+				<dt>Main</dt>
+				<dd class="aside-button">Home</dd>
+				<dd class="aside-button">Jobs</dd>
+				<dd class="aside-button">Resumes</dd>
+				<dd class="aside-button">Tasks</dd>
+				<dd class="aside-button">Calendar</dd>
+		</section>
+		<section class="user-admin">
+			<dl>
+				<dt>Admin</dt>
+				<dd class="aside-button">Users</dd>
+				<dd class="aside-button">Locations</dd>
+				<dd class="aside-button">Workflows</dd>
+				<dd class="aside-button">Job Boards</dd>
+				<dd class="aside-button">Social</dd>
+		</section>
+		<section>
+			<dl class="user-categories">
+				<dt>Categories</dt>
+				<dd>
+					<input type="checkbox" id="checkbox" name="administrative" vaule="administrative" checked>
+					<lable class="checkbox">Administrative</lable>
+				</dd>
+				<dd>
+					<input type="checkbox" id="checkbox" name="administrative" vaule="administrative">
+					<lable class="checkbox">Design</lable>
+				</dd>
+				<dd>
+					<input type="checkbox" id="checkbox" name="administrative" vaule="administrative">
+					<lable class="checkbox">Executive</lable>
+				</dd>
+				<dd>
+					<input type="checkbox" id="checkbox" name="administrative" vaule="administrative">
+					<lable class="checkbox">Human Resources</lable>
+				</dd>
+		</section>
 	</aside>
 
-	<nav class="listing-nav"></nav>
-
-	<head class="listing-console"></head>
-
 	<main>
-		<section class="page-data">
-			<section class="graph-circle"></section>
-			<section class="graph-bar"></section>
-		</section>
-		<section class="page-info">
-			<section class="listing-description"></section>
-			<section class="listing-share"></section>
+		<section class="container">
+			<nav class="listing-search"></nav>
+
+			<header class="listing-info"></header>
+
+			<nav class="listing-console"></nav>
+
+			<section class="page-info">
+				h
+				<section class="page-data">
+					<section class="graph-circle"></section>
+					<section class="graph-bar"></section>
+				</section>
+				<section class="listing-specs">
+					<section class="listing-description"></section>
+					<section class="listing-share"></section>
+				</section>
+			</section>
 		</section>
 	</main>
 
