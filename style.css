@@ -53,6 +53,8 @@ main {
 }
 
 /*****USER CONTROL*****/
+
+/*Base Styling*/
 .aside-button {
 	color: #B2BDCF;
 	text-transform: uppercase;
@@ -70,14 +72,6 @@ main {
 
 .aside-icon {
 	padding-right: 1rem;
-}
-
-.checkbox {
-	margin-right: 1rem;
-}
-
-.checkbox-lable {
-	color: #B2BDCF;
 }
 
 dd,
@@ -100,14 +94,7 @@ dt {
 	font-weight: 700;
 }
 
-.user-admin {
-	
-}
-
-.user-categories {
-	border: none;
-}
-
+/*User Image Section*/
 .user-drop-down {
 	font-size: 1rem;
 	margin-left: 0.5rem;
@@ -131,10 +118,6 @@ dt {
 	width: 10rem;
 }
 
-.user-main {
-
-}
-
 .user-name {
 	color: #B2BDCF;
 	cursor: default;
@@ -149,8 +132,17 @@ dt {
 	color: #14A4FA;
 }
 
+/*Checkboxes*/
 .blue {
 	color: #29AFFF;
+}
+
+.checkbox {
+	margin-right: 1rem;
+}
+
+.checkbox-lable {
+	color: #B2BDCF;
 }
 
 .green {
@@ -159,6 +151,10 @@ dt {
 
 .red {
 	color: #ED135D;
+}
+
+.user-categories {
+	border: none;
 }
 
 .yellow {
