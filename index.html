@@ -54,11 +54,23 @@
 	<main>
 		<section class="container">
 			<nav class="listing-search">
-				<div class="listing-search-btn user-console-access"><<i class="fa fa-bars" aria-hidden="true"></i></div>
-				<i class="fa fa-search" aria-hidden="true"></i><input class="listing-search-field" type="text" name="listing-search" placeholder="Search for a job, taks, or piece of artwork">
-				<div class="listing-search-btn add-user"><i class="fa fa-user-plus" aria-hidden="true"></i></div>
-				<div class="listing-search-btn add-event"><i class="fa fa-calendar-plus-o" aria-hidden="true"></i></div>
-				<div class="listing-search-btn see-pieces"><i class="fa fa-ellipsis-v" aria-hidden="true"></i><i class="fa fa-ellipsis-v" aria-hidden="true"></i><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+				<div class="listing-search-btn user-console-access">
+					<i class="fa fa-caret-left user-console-arrow" aria-hidden="true"></i>
+					<i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+				</div>
+				<div class="search-icon-container">
+					<i class="fa fa-search search-icon fa-lg" aria-hidden="true"></i>
+				</div>
+				<input class="listing-search-field" type="text" name="listing-search" placeholder="Search for a job, taks, or piece of artwork">
+				<div id="border-fix" class="listing-search-btn add-user">
+					<i class="fa fa-user-plus fa-lg" aria-hidden="true"></i>
+				</div>
+				<div id="border-fix" class="listing-search-btn add-event">
+					<i class="fa fa-calendar-plus-o fa-lg" aria-hidden="true"></i>
+				</div>
+				<div class="listing-search-btn see-pieces fa-lg">
+					<i class="fa fa-bug fa-lg" aria-hidden="true"></i>
+				</div>
 			</nav>
 
 			<header class="listing-info"></header>
