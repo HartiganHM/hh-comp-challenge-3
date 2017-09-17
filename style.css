@@ -9,12 +9,6 @@ p {
 }
 
 /*Base Layout*/
-aside {
-	background-color: #354052;
-	float: left;
-	width: 17.5rem;
-}
-
 body {
 	display: flex;
 	font-family: 'Open Sans', Arial, sans-serif;
@@ -37,12 +31,6 @@ body {
 	height: 20rem;
 }
 
-.listing-search {
-	background-color: blue;
-	border: 0.2rem solid #F7F7F7;
-	height: 5rem;
-}
-
 main {
 	flex: 1;
 }
@@ -53,6 +41,11 @@ main {
 }
 
 /*****USER CONTROL*****/
+aside {
+	background-color: #354052;
+	float: left;
+	width: 17.5rem;
+}
 
 /*Base Styling*/
 .aside-button {
@@ -160,3 +153,70 @@ dt {
 .yellow {
 	color: #FFE500;
 }
+
+/*****LISTING SEARCH*****/
+#border-fix {
+	border-right: 0;
+}
+
+input::placeholder {
+	color: #CED2D5;
+}
+
+.listing-search {
+	display: flex;
+	height: 7.5rem;
+	justify-content: space-between;
+}
+
+.listing-search-btn {
+	align-items: center;
+	border: 0.2rem solid #F7F7F7;
+	color: #6F7E95;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	width: 7.5rem;
+}
+
+.listing-search-field {
+	border: none;
+	flex: 1;
+}
+
+.search-icon {
+	color: #9CA0A3;
+}
+
+.search-icon-container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 1rem;
+	width: 5rem;
+}
+
+.user-console-arrow {
+	color: #14A4FA;
+	margin: 0 0.25rem 0 -1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
