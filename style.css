@@ -63,6 +63,12 @@ main {
 	background-color: #30394A;
 }
 
+.aside-button:active {
+	color: #FFF;
+	background-color: #30394A;
+	border-left: 0.5rem solid #14A4FA;
+}
+
 .aside-icon {
 	padding-right: 1rem;
 }
@@ -99,13 +105,18 @@ dt {
 	border: none;
 }
 
+.user-drop-down {
+	font-size: 1rem;
+	margin-left: 0.5rem;
+}
+
 .user-id {
 	align-items: center;
 	border-bottom: 0.3rem inset #2C3749;
 	display: flex;
 	flex-direction: column;
 	height: 17.5rem;
-	justify-content: space-around;
+	justify-content: center;
 	padding: 0.15rem;
 }
 
@@ -122,6 +133,14 @@ dt {
 }
 
 .user-name {
-	
+	color: #B2BDCF;
+	margin-top: 1rem;
 }
 
+.user-name:hover {
+	color: #FFF;
+}
+
+.user-name:hover .user-drop-down {
+	color: #14A4FA;
+}
