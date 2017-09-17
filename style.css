@@ -179,6 +179,13 @@ input::placeholder {
 	width: 7.5rem;
 }
 
+.listing-search-btn:hover,
+.listing-search-btn:hover .user-console-arrow {
+	background-color: #14A4FA;
+	border-color: #14A4F4;
+	color: #FFF;
+}
+
 .listing-search-field {
 	border: none;
 	flex: 1;
