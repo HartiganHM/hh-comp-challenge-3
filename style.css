@@ -1,4 +1,13 @@
 /*Root Styling*/
+a {
+	color: #14A4FA;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #65C7F6;
+}
+
 html {
 	font-size: 62.5%;
 	height: 100%;
@@ -24,11 +33,6 @@ body {
 .listing-console {
 	background-color: green;
 	height: 5rem;
-}
-
-.listing-info {
-	background-color: red;
-	height: 20rem;
 }
 
 main {
@@ -188,6 +192,7 @@ input::placeholder {
 
 .listing-search-field {
 	border: none;
+	border-bottom: 0.2rem solid #F7F7F7;
 	color: #6F7E95;
 	flex: 1;
 	font-size: 1.6rem;
@@ -203,6 +208,7 @@ input::placeholder {
 }
 
 .search-icon-container {
+	border-bottom: 0.2rem solid #F7F7F7;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
@@ -215,7 +221,62 @@ input::placeholder {
 	margin: 0 0.25rem 0 -1rem;
 }
 
+/*****LISTING INFO*****/
 
+.listing-button {
+	align-items: center;
+	border: 0.2rem solid #DEDFE1;
+	border-radius: 3rem;
+	display: flex;
+	height: 3rem;
+	justify-content: center;
+	margin-left: 1.5rem;
+	padding: 0.3rem;
+	width: 3rem;
+}
+
+.listing-indicator {
+	color: #8AC642;
+	margin-right: 0.5rem;
+}
+
+.listing-info {
+	align-items: center;
+	box-sizing: border-box;
+	display: flex;
+	height: 20rem;
+	justify-content: space-between;
+	padding: 0 2rem;
+}
+
+.listing-info-buttons {
+	display: flex;
+	justify-content: space-between;
+}
+
+.listing-info-text {
+	padding: 1rem;
+}
+
+.listing-location {
+	color: #828594;
+	padding-left: 1rem;
+}
+
+.listing-status {
+	align-items: center;
+	border: 0.2rem solid #DEDFE1;
+	border-radius: 3rem;
+	display: flex;
+	height: 3rem;
+	justify-content: center;
+	padding: 0.3rem 1.5rem;
+}
+
+.listing-title {
+	color: #56555B;
+	margin-bottom: 1rem;
+}
 
 
 
