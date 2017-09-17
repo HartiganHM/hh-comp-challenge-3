@@ -222,7 +222,6 @@ input::placeholder {
 }
 
 /*****LISTING INFO*****/
-
 .listing-button {
 	align-items: center;
 	border: 0.2rem solid #DEDFE1;
@@ -233,6 +232,13 @@ input::placeholder {
 	margin-left: 1.5rem;
 	padding: 0.3rem;
 	width: 3rem;
+}
+
+.listing-button:hover,
+.listing-status:hover {
+	background-color: #14A4FA;
+	border-color: #14A4F4;
+	color: #FFF;
 }
 
 .listing-indicator {
