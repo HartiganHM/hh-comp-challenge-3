@@ -188,7 +188,14 @@ input::placeholder {
 
 .listing-search-field {
 	border: none;
+	color: #6F7E95;
 	flex: 1;
+	font-size: 1.6rem;
+	padding: 0.5rem;
+}
+
+.listing-search-field:focus {
+	outline: none;
 }
 
 .search-icon {
@@ -199,7 +206,7 @@ input::placeholder {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	padding-right: 1rem;
+	padding-right: 0.5rem;
 	width: 5rem;
 }
 
