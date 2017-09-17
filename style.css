@@ -55,7 +55,6 @@ main {
 /*User Console*/
 .aside-button {
 	color: #B2BDCF;
-	cursor: default;
 	text-transform: uppercase;
 }
 
@@ -73,9 +72,12 @@ main {
 	padding-right: 1rem;
 }
 
-.checkbox {
+/*.checkbox {
+	margin-right: 1rem;
+}*/
+
+.checkbox-lable {
 	color: #B2BDCF;
-	padding-left: 1rem;
 }
 
 dd,
@@ -90,6 +92,7 @@ dt {
 
 dl {
 	border-bottom: 0.3rem inset #2C3749;
+	cursor: default;
 	padding: 1rem 0;
 }
 
@@ -134,6 +137,7 @@ dt {
 
 .user-name {
 	color: #B2BDCF;
+	cursor: default;
 	margin-top: 1rem;
 }
 
