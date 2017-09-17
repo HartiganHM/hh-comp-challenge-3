@@ -9,12 +9,6 @@ p {
 }
 
 /*Base Layout*/
-aside {
-	background-color: #354052;
-	float: left;
-	width: 17.5rem;
-}
-
 body {
 	display: flex;
 	font-family: 'Open Sans', Arial, sans-serif;
@@ -37,12 +31,6 @@ body {
 	height: 20rem;
 }
 
-.listing-search {
-	background-color: blue;
-	border: 0.2rem solid #F7F7F7;
-	height: 5rem;
-}
-
 main {
 	flex: 1;
 }
@@ -52,7 +40,14 @@ main {
 	flex: 1;
 }
 
-/*User Console*/
+/*****USER CONTROL*****/
+aside {
+	background-color: #354052;
+	float: left;
+	width: 17.5rem;
+}
+
+/*Base Styling*/
 .aside-button {
 	color: #B2BDCF;
 	text-transform: uppercase;
@@ -70,14 +65,6 @@ main {
 
 .aside-icon {
 	padding-right: 1rem;
-}
-
-/*.checkbox {
-	margin-right: 1rem;
-}*/
-
-.checkbox-lable {
-	color: #B2BDCF;
 }
 
 dd,
@@ -100,14 +87,7 @@ dt {
 	font-weight: 700;
 }
 
-.user-admin {
-	
-}
-
-.user-categories {
-	border: none;
-}
-
+/*User Image Section*/
 .user-drop-down {
 	font-size: 1rem;
 	margin-left: 0.5rem;
@@ -131,10 +111,6 @@ dt {
 	width: 10rem;
 }
 
-.user-main {
-
-}
-
 .user-name {
 	color: #B2BDCF;
 	cursor: default;
@@ -148,3 +124,113 @@ dt {
 .user-name:hover .user-drop-down {
 	color: #14A4FA;
 }
+
+/*Checkboxes*/
+.blue {
+	color: #29AFFF;
+}
+
+.checkbox {
+	margin-right: 1rem;
+}
+
+.checkbox-lable {
+	color: #B2BDCF;
+}
+
+.green {
+	color: #03AB8A;
+}
+
+.red {
+	color: #ED135D;
+}
+
+.user-categories {
+	border: none;
+}
+
+.yellow {
+	color: #FFE500;
+}
+
+/*****LISTING SEARCH*****/
+#border-fix {
+	border-right: 0;
+}
+
+input::placeholder {
+	color: #CED2D5;
+}
+
+.listing-search {
+	display: flex;
+	height: 7.5rem;
+	justify-content: space-between;
+}
+
+.listing-search-btn {
+	align-items: center;
+	border: 0.2rem solid #F7F7F7;
+	color: #6F7E95;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	width: 7.5rem;
+}
+
+.listing-search-btn:hover,
+.listing-search-btn:hover .user-console-arrow {
+	background-color: #14A4FA;
+	border-color: #14A4F4;
+	color: #FFF;
+}
+
+.listing-search-field {
+	border: none;
+	color: #6F7E95;
+	flex: 1;
+	font-size: 1.6rem;
+	padding: 0.5rem;
+}
+
+.listing-search-field:focus {
+	outline: none;
+}
+
+.search-icon {
+	color: #9CA0A3;
+}
+
+.search-icon-container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 0.5rem;
+	width: 5rem;
+}
+
+.user-console-arrow {
+	color: #14A4FA;
+	margin: 0 0.25rem 0 -1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

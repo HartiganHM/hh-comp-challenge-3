@@ -37,23 +37,41 @@
 			<dl class="user-categories">
 				<dt>Categories</dt>
 				<dd>
-					<lable class="checkbox-lable" for="checkbox-1"><input class ="checkbox" type="checkbox" id="checkbox-1" name="administrative" vaule="administrative" checked>Administrative</lable>
+					<lable class="checkbox-lable" for="checkbox"><i class="fa fa-check-square checkbox yellow" aria-hidden="true"></i></i>Administrative</lable>
 				</dd>
 				<dd>
-					<lable class="checkbox-lable" for="checkbox-2"><input type="checkbox" class="checkbox" id="checkbox-2" name="administrative" vaule="administrative">Design</lable>
+					<lable class="checkbox-lable" for="checkbox-2"><i class="fa fa-square checkbox blue" aria-hidden="true"></i>Design</lable>
 				</dd>
 				<dd>
-					<lable class="checkbox-lable" for="checkbox-3"><input type="checkbox" id="checkbox-3" class="checkbox" name="administrative" vaule="administrative">Executive</lable>
+					<lable class="checkbox-lable" for="checkbox-3"><i class="fa fa-square checkbox red" aria-hidden="true"></i>Executive</lable>
 				</dd>
 				<dd>
-					<lable class="checkbox-lable" for="checkbox-4"><input type="checkbox" id="checkbox-4" class="checkbox" name="administrative" vaule="administrative">Human Resources</lable>
+					<lable class="checkbox-lable" for="checkbox-4"><i class="fa fa-square checkbox green" aria-hidden="true"></i>Human Resources</lable>
 				</dd>
 		</section>
 	</aside>
 
 	<main>
 		<section class="container">
-			<nav class="listing-search"></nav>
+			<nav class="listing-search">
+				<div class="listing-search-btn user-console-access">
+					<i class="fa fa-caret-left user-console-arrow" aria-hidden="true"></i>
+					<i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+				</div>
+				<div class="search-icon-container">
+					<i class="fa fa-search search-icon fa-lg" aria-hidden="true"></i>
+				</div>
+				<input class="listing-search-field" type="text" name="listing-search" placeholder="Search for a job, taks, or piece of artwork">
+				<div id="border-fix" class="listing-search-btn add-user">
+					<i class="fa fa-user-plus fa-lg" aria-hidden="true"></i>
+				</div>
+				<div id="border-fix" class="listing-search-btn add-event">
+					<i class="fa fa-calendar-plus-o fa-lg" aria-hidden="true"></i>
+				</div>
+				<div class="listing-search-btn see-pieces fa-lg">
+					<i class="fa fa-bug fa-lg" aria-hidden="true"></i>
+				</div>
+			</nav>
 
 			<header class="listing-info"></header>
 
