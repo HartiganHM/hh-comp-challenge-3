@@ -35,11 +35,6 @@ main {
 	flex: 1;
 }
 
-.page-info {
-	background-color: #EDF2F6;
-	flex: 1;
-}
-
 /*****USER CONTROL*****/
 aside {
 	background-color: #354052;
@@ -307,7 +302,33 @@ input::placeholder {
 	transition: 0.25s border-bottom, 0.25s color;
 }
 
+/*****PAGE INFO*****/
+.page-info {
+	background-color: #EDF2F6;
+	flex: 1;
+}
 
+/*Page Data*/
+.graph-bar {
+	background-color: green;
+	flex: 1;
+	height: 20rem;
+}
+
+.graph-circle {
+	background-color: red;
+	flex: 1;
+	height: 20rem;
+}
+
+.page-data {
+	align-items: stretch;
+	background-color: blue;
+	display: flex;
+	height: 20rem;
+	padding: 5rem 2rem;
+	justify-content: center
+}
 
 
 
