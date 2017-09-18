@@ -30,11 +30,6 @@ body {
 	height: 100%;
 }
 
-.listing-console {
-	background-color: green;
-	height: 5rem;
-}
-
 main {
 	flex: 1;
 }
@@ -284,10 +279,28 @@ input::placeholder {
 	margin-bottom: 1rem;
 }
 
+/*****LISTING CONSOLE*****/
+.listing-console {
+	align-items: flex-end;
+	cursor: default;
+	display: flex;
+	height: 5rem;
+	/*justify-content: flex-end;*/
+}
 
+.listing-console-button {
+	color: #828594;
+	font-size: 1.4rem;
+	margin: 0 3rem;
+	padding: 2rem 0;
+	text-transform: uppercase;
+}
 
-
-
+.listing-console-button:hover {
+	border-bottom: 0.5rem solid #14A4FA;
+	color: #000;
+	transition: 0.25s border-bottom, 0.25s color;
+}
 
 
 
