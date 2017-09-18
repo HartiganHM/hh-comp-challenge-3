@@ -291,7 +291,6 @@ input::placeholder {
 	cursor: default;
 	display: flex;
 	height: 5rem;
-	/*justify-content: flex-end;*/
 }
 
 .listing-console-button {
