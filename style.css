@@ -6,6 +6,7 @@ a {
 
 a:hover {
 	color: #65C7F6;
+	transition: 0.25s color;
 }
 
 html {
@@ -28,11 +29,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
-}
-
-.listing-console {
-	background-color: green;
-	height: 5rem;
 }
 
 main {
@@ -59,6 +55,7 @@ aside {
 
 .aside-button:hover {
 	background-color: #30394A;
+	transition: 0.25s background-color;
 }
 
 .aside-button:active {
@@ -123,10 +120,12 @@ dt {
 
 .user-name:hover {
 	color: #FFF;
+	transition: 0.25s color;
 }
 
 .user-name:hover .user-drop-down {
 	color: #14A4FA;
+	transition: 0.25s color;
 }
 
 /*Checkboxes*/
@@ -188,6 +187,7 @@ input::placeholder {
 	background-color: #14A4FA;
 	border-color: #14A4F4;
 	color: #FFF;
+	transition: 0.25s background-color, 0.25s border-color, 0.25s color;
 }
 
 .listing-search-field {
@@ -239,6 +239,7 @@ input::placeholder {
 	background-color: #14A4FA;
 	border-color: #14A4F4;
 	color: #FFF;
+	transition: 0.25s background-color, 0.25s border-color, 0.25s color;
 }
 
 .listing-indicator {
@@ -284,10 +285,28 @@ input::placeholder {
 	margin-bottom: 1rem;
 }
 
+/*****LISTING CONSOLE*****/
+.listing-console {
+	align-items: flex-end;
+	cursor: default;
+	display: flex;
+	height: 5rem;
+	/*justify-content: flex-end;*/
+}
 
+.listing-console-button {
+	color: #828594;
+	font-size: 1.4rem;
+	margin: 0 3rem;
+	padding: 2rem 0;
+	text-transform: uppercase;
+}
 
-
-
+.listing-console-button:hover {
+	border-bottom: 0.5rem solid #14A4FA;
+	color: #000;
+	transition: 0.25s border-bottom, 0.25s color;
+}
 
 
 
