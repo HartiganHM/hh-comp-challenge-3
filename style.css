@@ -6,6 +6,7 @@ a {
 
 a:hover {
 	color: #65C7F6;
+	transition: 0.25s color;
 }
 
 html {
@@ -54,6 +55,7 @@ aside {
 
 .aside-button:hover {
 	background-color: #30394A;
+	transition: 0.25s background-color;
 }
 
 .aside-button:active {
@@ -118,10 +120,12 @@ dt {
 
 .user-name:hover {
 	color: #FFF;
+	transition: 0.25s color;
 }
 
 .user-name:hover .user-drop-down {
 	color: #14A4FA;
+	transition: 0.25s color;
 }
 
 /*Checkboxes*/
@@ -183,6 +187,7 @@ input::placeholder {
 	background-color: #14A4FA;
 	border-color: #14A4F4;
 	color: #FFF;
+	transition: 0.25s background-color, 0.25s border-color, 0.25s color;
 }
 
 .listing-search-field {
@@ -234,6 +239,7 @@ input::placeholder {
 	background-color: #14A4FA;
 	border-color: #14A4F4;
 	color: #FFF;
+	transition: 0.25s background-color, 0.25s border-color, 0.25s color;
 }
 
 .listing-indicator {
