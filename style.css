@@ -106,6 +106,12 @@ dt {
 	font-weight: 700;
 }
 
+.user-main-mobile,
+.user-admin-mobile,
+.user-categories-mobile {
+	display: none;
+}
+
 /*User Image Section*/
 .user-drop-down {
 	font-size: 1rem;
@@ -513,7 +519,18 @@ input::placeholder {
 	}
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:650px) {
+	.user-main,
+	.user-admin,
+	.user-categories {
+		display: none;
+	}
+
+	.user-main-mobile,
+	.user-admin-mobile,
+	.user-categories-mobile {
+		display: block;
+	}
 
 }
 
