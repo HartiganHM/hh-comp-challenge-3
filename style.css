@@ -319,6 +319,7 @@ input::placeholder {
 
 .graph-circle {
 	background-color: red;
+	display: flex;
 	flex: 1;
 	height: 20rem;
 }
@@ -330,6 +331,30 @@ input::placeholder {
 	height: 20rem;
 	padding: 3rem;
 	justify-content: center
+}
+
+/*Circle Graphs*/
+.circle-graph, {
+	align-items: center;
+	display: flex;
+	height: 15rem;
+	justify-content: center;
+	width: 15rem;
+}
+
+.circle-color {
+	background-color: #333;
+	border-radius: 15rem;
+	height: 15rem;
+	border-radius: 15rem
+	width: 15rem;
+}
+
+.circle-cover {
+	background-color: #FFF;
+	border-radius: 12rem;
+	height: 12rem;
+	width: 12rem;
 }
 
 /*Listing Spec*/
