@@ -5,6 +5,10 @@
 	color: #29AFFF;
 }
 
+.dark-gray {
+	color: #56555B;
+}
+
 .green {
 	color: #03AB8A;
 }
@@ -54,7 +58,7 @@ a:hover {
 	transition: 0.25s color;
 }
 
-/*****USER CONTROL*****/
+/*****ASIDE USER CONTROL*****/
 aside {
 	background-color: #354052;
 	float: left;
@@ -278,7 +282,6 @@ input::placeholder {
 }
 
 .listing-title {
-	color: #56555B;
 	margin-bottom: 1rem;
 }
 
@@ -363,9 +366,16 @@ input::placeholder {
 	border-radius: 12.5rem;
 	display: flex;
 	flex-direction: column;
+	font-size: 1.4rem;
 	height: 12.5rem;
 	justify-content: center;
+	text-transform: uppercase;
 	width: 12.5rem;
+}
+
+.total-figure {
+	font-family: 'Titillium Web';
+	font-size: 2.4rem;
 }
 
 /*Listing Spec*/
