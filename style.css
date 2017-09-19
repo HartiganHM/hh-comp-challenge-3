@@ -35,11 +35,6 @@ main {
 	flex: 1;
 }
 
-.page-info {
-	background-color: #EDF2F6;
-	flex: 1;
-}
-
 /*****USER CONTROL*****/
 aside {
 	background-color: #354052;
@@ -251,9 +246,8 @@ input::placeholder {
 	align-items: center;
 	box-sizing: border-box;
 	display: flex;
-	height: 20rem;
 	justify-content: space-between;
-	padding: 0 2rem;
+	padding: 3rem;
 }
 
 .listing-info-buttons {
@@ -291,13 +285,13 @@ input::placeholder {
 	cursor: default;
 	display: flex;
 	height: 5rem;
-	/*justify-content: flex-end;*/
+	margin: 0 3rem;
 }
 
 .listing-console-button {
 	color: #828594;
 	font-size: 1.4rem;
-	margin: 0 3rem;
+	margin: 0 2rem;
 	padding: 2rem 0;
 	text-transform: uppercase;
 }
@@ -308,9 +302,53 @@ input::placeholder {
 	transition: 0.25s border-bottom, 0.25s color;
 }
 
+/*****PAGE INFO*****/
+.page-info {
+	background-color: #EDF2F6;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+}
 
+/*Page Data*/
+.graph-bar {
+	background-color: green;
+	flex: 1;
+	height: 20rem;
+}
 
+.graph-circle {
+	background-color: red;
+	flex: 1;
+	height: 20rem;
+}
 
+.page-data {
+	align-items: stretch;
+	background-color: blue;
+	display: flex;
+	height: 20rem;
+	padding: 3rem;
+	justify-content: center
+}
+
+/*Listing Spec*/
+.listing-specs {
+	background: teal;
+	display: flex;
+	flex: 1;
+	padding: 3rem;
+}
+
+.listing-description {
+	background-color: purple;
+	flex: 2;
+}
+
+.listing-share {
+	background-color: orange;
+	flex: 1;
+}
 
 
 
