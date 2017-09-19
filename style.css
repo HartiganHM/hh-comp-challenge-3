@@ -532,6 +532,27 @@ input::placeholder {
 		display: block;
 	}
 
+	select {
+		color: #B2BDCF;
+		background-color: #354052;
+		border: 2px solid #5D6777;
+		font-family: 'Open Sans', Arial, sans-serif;
+		height: 5rem;
+		overflow: hidden;
+		text-transform: uppercase;
+	}
+
+	select:focus {
+		outline: none;
+	}
+
+	select:hover {
+		background-color: #14A4FA;
+		border-color: #14A4F4;
+		color: #FFF;
+		transition: 0.25s background-color, 0.25s border-color, 0.25s color;
+	}
+
 }
 
 
