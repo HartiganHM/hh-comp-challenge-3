@@ -1,4 +1,4 @@
-/*Root Styling*/
+/*****BASE STYLINGS*/
 a {
 	color: #14A4FA;
 	text-decoration: none;
@@ -315,13 +315,17 @@ input::placeholder {
 	background-color: green;
 	flex: 1;
 	height: 20rem;
+	margin: 0 3rem 0 1.5rem;
 }
 
 .graph-circle {
+	align-items: center;
 	background-color: red;
 	display: flex;
 	flex: 1;
 	height: 20rem;
+	justify-content: space-around;
+	margin: 0 1.5rem 0 3rem;
 }
 
 .page-data {
@@ -329,7 +333,7 @@ input::placeholder {
 	background-color: blue;
 	display: flex;
 	height: 20rem;
-	padding: 3rem;
+	padding: 3rem 0;
 	justify-content: center
 }
 
@@ -337,24 +341,28 @@ input::placeholder {
 .circle-graph, {
 	align-items: center;
 	display: flex;
-	height: 15rem;
 	justify-content: center;
-	width: 15rem;
 }
 
 .circle-color {
+	align-items: center;
 	background-color: #333;
-	border-radius: 15rem;
-	height: 15rem;
-	border-radius: 15rem
-	width: 15rem;
+	border-radius: 14rem;
+	display: flex;
+	height: 14rem;
+	justify-content: center;
+	width: 14rem;
 }
 
 .circle-cover {
+	align-items: center;
 	background-color: #FFF;
-	border-radius: 12rem;
-	height: 12rem;
-	width: 12rem;
+	border-radius: 12.5rem;
+	display: flex;
+	flex-direction: column;
+	height: 12.5rem;
+	justify-content: center;
+	width: 12.5rem;
 }
 
 /*Listing Spec*/
