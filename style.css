@@ -288,10 +288,11 @@ input::placeholder {
 /*****LISTING CONSOLE*****/
 .listing-console {
 	align-items: flex-end;
+	border-bottom: 0.2rem solid #F7F7F7;
 	cursor: default;
 	display: flex;
 	height: 5rem;
-	margin: 0 3rem;
+	padding: 0 3rem;
 }
 
 .listing-console-button {
