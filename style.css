@@ -326,7 +326,6 @@ input::placeholder {
 
 .graph-circle {
 	align-items: center;
-	background-color: red;
 	display: flex;
 	flex: 1;
 	height: 20rem;
@@ -336,7 +335,6 @@ input::placeholder {
 
 .page-data {
 	align-items: stretch;
-	background-color: blue;
 	display: flex;
 	height: 20rem;
 	padding: 3rem 0;
@@ -375,7 +373,7 @@ input::placeholder {
 
 .total-figure {
 	font-family: 'Titillium Web';
-	font-size: 2.4rem;
+	font-size: 3.2rem;
 }
 
 /*Listing Spec*/
