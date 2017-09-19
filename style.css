@@ -415,6 +415,35 @@ input::placeholder {
 	flex: 1;
 }
 
+/*****MEDIA QUERIES*****/
+@media screen and (max-width:1100px) {
+	aside {
+		display: flex;
+		float: none;
+		width: auto;
+	}
+
+	body {
+		flex-direction: column;
+	}
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+	}
+
+}
+
+
+@media screen and (max-width:750px) {
+
+}
+
+@media screen and (max-width:500px) {
+
+}
+
 
 
 
