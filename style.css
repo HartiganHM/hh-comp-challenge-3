@@ -343,12 +343,6 @@ input::placeholder {
 }
 
 /*Circle Graphs*/
-/*.circle-graph {
-	align-items: center;
-	display: flex;
-	justify-content: center;
-}*/
-
 .circle-color {
 	align-items: center;
 	border-radius: 15rem;
