@@ -1,24 +1,23 @@
-/*****BASE STYLINGS*/
-a {
-	color: #14A4FA;
-	text-decoration: none;
+/*****BASE STYLINGS*****/
+
+/*Color*/
+.blue {
+	color: #29AFFF;
 }
 
-a:hover {
-	color: #65C7F6;
-	transition: 0.25s color;
+.green {
+	color: #03AB8A;
 }
 
-html {
-	font-size: 62.5%;
-	height: 100%;
+.red {
+	color: #ED135D;
 }
 
-p {
-	margin: 0;
+.yellow {
+	color: #FFE500;
 }
 
-/*Base Layout*/
+/*Layout*/
 body {
 	display: flex;
 	font-family: 'Open Sans', Arial, sans-serif;
@@ -31,8 +30,28 @@ body {
 	height: 100%;
 }
 
+html {
+	font-size: 62.5%;
+	height: 100%;
+}
+
 main {
 	flex: 1;
+}
+
+p {
+	margin: 0;
+}
+
+/*Links*/
+a {
+	color: #14A4FA;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #65C7F6;
+	transition: 0.25s color;
 }
 
 /*****USER CONTROL*****/
@@ -124,10 +143,6 @@ dt {
 }
 
 /*Checkboxes*/
-.blue {
-	color: #29AFFF;
-}
-
 .checkbox {
 	margin-right: 1rem;
 }
@@ -136,20 +151,8 @@ dt {
 	color: #B2BDCF;
 }
 
-.green {
-	color: #03AB8A;
-}
-
-.red {
-	color: #ED135D;
-}
-
 .user-categories {
 	border: none;
-}
-
-.yellow {
-	color: #FFE500;
 }
 
 /*****LISTING SEARCH*****/
