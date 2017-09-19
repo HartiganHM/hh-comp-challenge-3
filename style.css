@@ -418,9 +418,21 @@ input::placeholder {
 /*****MEDIA QUERIES*****/
 @media screen and (max-width:1100px) {
 	aside {
+		align-items: center;
 		display: flex;
 		float: none;
 		width: auto;
+	}
+
+	.aside-button:active {
+		border-bottom: 0.5rem solid #14A4FA;
+		border-left: none;
+	}
+
+	.aside-container {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
 	}
 
 	body {
@@ -433,11 +445,72 @@ input::placeholder {
 		height: auto;
 	}
 
+	dl {
+		border-right: 0.3rem inset #5D6777;
+		display: flex;
+		margin-bottom: 0;
+		padding: 0;
+	}
+
+	dt {
+		width: 10rem;
+	}
+
+	.user-categories {
+		border-bottom: 0.3rem inset #2C3749;
+		border-right: 0.3rem inset #5D6777;
+	}
+
+	.user-id {
+		border-bottom: none;
+		order: 1;
+		width: 17.5rem;
+	}
 }
 
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:850px) {
+	aside {
+		align-items: flex-start;
+		display: flex;
+		flex-direction: column;
+		float: none;
+		width: auto;
+	}
 
+	.aside-container {
+		width: 100%;
+	}
+
+	dd {
+		padding: 1rem;
+	}
+
+	dl,
+	.user-categories {
+		border-right: none;
+	}
+
+	dt {
+		padding: 0.5rem 1rem;
+	}
+
+	.user-id {
+		border-bottom: 0.3rem inset #2C3749;
+		height: auto;
+		flex-direction: row;
+		justify-content: flex-start;
+		padding: 1rem;
+		order: 0;
+		width: 100%;
+	}
+
+	.user-image {
+		border-radius: 7.5rem;
+		height: 7.5rem;
+		margin-right: 1.5rem;
+		width: 7.5rem;
+	}
 }
 
 @media screen and (max-width:500px) {
