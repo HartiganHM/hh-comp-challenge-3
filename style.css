@@ -636,6 +636,7 @@ tr {
 	flex: 1;
 	height: 4rem;
 	padding: 1rem;
+	text-overflow: ellipsis;
 }
 
 .share-text {
