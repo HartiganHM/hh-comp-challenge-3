@@ -451,7 +451,9 @@ input::placeholder {
 
 .listing-share {
 	background-color: orange;
+	display: flex;
 	flex: 1;
+	flex-direction: column;
 	margin-left: 1.5rem;
 }
 
@@ -551,6 +553,51 @@ tr {
 	border-bottom: 0.1rem solid #6F7E95;
 	display: flex;
 	position: relative;
+}
+
+/*****SHARE LISTING SECTION****/
+.fb-box {
+	background-color: #486BBD;
+}
+
+.fb-box,
+.twitter-box,
+.linkedin-box {
+	align-items: flex-start;
+	align-self: stretch;
+	color: #FFF;
+	display: flex;
+	justify-content: space-between;
+	padding: 2rem 2rem;
+}
+
+.link-share-box {
+	align-self: stretch;
+}
+
+.linkedin-box {
+	background-color: #037EBA;
+}
+
+.share-top,
+.share-bottom {
+	align-items: center;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.social-button {
+	flex: 2;
+}
+
+.social-icon {
+	margin-right: 3rem;
+}
+
+.twitter-box {
+	background-color: #01A8EF;
 }
 
 /*****MEDIA QUERIES*****/
