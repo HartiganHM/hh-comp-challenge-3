@@ -456,6 +456,10 @@ input::placeholder {
 }
 
 /*****JOB DESCRIPTION*****/
+.approved-salary {
+	font-weight: 700;
+}
+
 .edit-icon {
 	margin-right: 0.5rem;
 }
@@ -564,6 +568,15 @@ tr {
 
 	.listing-console-button {
 		margin: 0 1rem;
+	}
+
+	.listing-description {
+		margin-bottom: 1.5rem;
+		margin-right: 0;
+	}
+
+	.listing-specs {
+		flex-direction: column;
 	}
 
 	.page-data {
@@ -749,6 +762,19 @@ tr {
 
 	.graph-circle {
 		height: auto;
+	}
+
+	td {
+		padding: 1rem 2rem 2rem;
+	}
+
+	th {
+		padding: 2rem 2rem 1rem;
+	}
+
+	.job-description-row,
+	.salary-row {
+		flex-direction: column;
 	}
 }
 
