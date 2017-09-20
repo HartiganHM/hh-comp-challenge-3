@@ -518,6 +518,21 @@ input::placeholder {
 		padding: 0.5rem 1rem;
 	}
 
+	.listing-info {
+		flex-direction: column;
+	}
+
+	.listing-info-buttons {
+		justify-content: flex-end;
+		padding-top: 2rem;
+	}
+
+	.listing-info-text {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+
 	.user-id {
 		border-bottom: 0.3rem inset #2C3749;
 		height: auto;
@@ -537,6 +552,10 @@ input::placeholder {
 }
 
 @media screen and (max-width:650px) {
+	.listing-info-text {
+		text-align: center;
+	}
+	
 	.listing-search {
 		flex-direction: column;
 		height: 10rem;
