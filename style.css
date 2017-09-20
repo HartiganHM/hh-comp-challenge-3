@@ -486,6 +486,7 @@ input::placeholder {
 }
 
 table {
+	color: #8B919F;
 	background-color: #FFF;
 	border-spacing: inherit;
 	padding-bottom: 3rem;
