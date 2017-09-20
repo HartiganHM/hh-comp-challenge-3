@@ -430,7 +430,10 @@ input::placeholder {
 .bar-graph {
 	align-self: stretch;
 	background: url('images/bar-graph.png');
-	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 12rem;
 	flex: 1;
 }
 
