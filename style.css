@@ -439,20 +439,77 @@ input::placeholder {
 
 /*****LISTING SPECS*****/
 .listing-specs {
-	background: teal;
 	display: flex;
 	flex: 1;
 	padding: 3rem;
 }
 
 .listing-description {
-	background-color: purple;
 	flex: 2;
+	margin-right: 1.5rem;
 }
 
 .listing-share {
 	background-color: orange;
 	flex: 1;
+	margin-left: 1.5rem;
+}
+
+/*****JOB DESCRIPTION*****/
+.edit-icon {
+	margin-right: 0.5rem;
+}
+
+.edit-listing {
+	background-color: #7D8BA5;
+	border: none;
+	color: #FFF;
+	padding: 0.5rem 1rem;
+	text-transform: uppercase;
+}
+
+.edit-listing:hover {
+	background-color: #14A4FA;
+	transition: 0.25s background-color;
+}
+
+.salary-column {
+	padding-bottom: 0;
+}
+
+.salary-row {
+	border-bottom: none;
+}
+
+table {
+	background-color: #FFF;
+	border-spacing: inherit;
+	padding-bottom: 3rem;
+	position: relative;
+}
+
+td {
+	flex: 3;
+	line-height: 140%;
+	padding: 3rem 3rem 3rem 1rem;
+}
+
+th{
+	flex: 1;
+	padding: 3rem 1rem 3rem 3rem;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+thead {
+	background-color: #6F7E95;
+	color: #FFF;
+}
+
+tr {
+	border-bottom: 0.1rem solid #6F7E95;
+	display: flex;
+	position: relative;
 }
 
 /*****MEDIA QUERIES*****/
