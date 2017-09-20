@@ -439,20 +439,96 @@ input::placeholder {
 
 /*****LISTING SPECS*****/
 .listing-specs {
-	background: teal;
 	display: flex;
 	flex: 1;
 	padding: 3rem;
 }
 
 .listing-description {
-	background-color: purple;
 	flex: 2;
+	margin-right: 1.5rem;
 }
 
 .listing-share {
 	background-color: orange;
 	flex: 1;
+	margin-left: 1.5rem;
+}
+
+/*****JOB DESCRIPTION*****/
+.approved-salary {
+	font-weight: 700;
+}
+
+.edit-icon {
+	margin-right: 0.5rem;
+}
+
+.edit-listing {
+	background-color: #7D8BA5;
+	border: none;
+	color: #FFF;
+	padding: 0.5rem 1rem;
+	text-transform: uppercase;
+}
+
+.edit-listing:hover {
+	background-color: #14A4FA;
+	transition: 0.25s background-color;
+}
+
+.hiring-lead {
+	align-items: center;
+	display: flex;
+}
+
+.hiring-lead-image {
+	background-image: url('images/hugh-m-hartigan.jpg');
+	background-size: cover;
+	border-radius: 5rem;
+	height: 5rem;
+	margin-right: 1rem;
+	width: 5rem;
+}
+
+.salary-column {
+	padding-bottom: 0;
+}
+
+.salary-row {
+	border-bottom: none;
+}
+
+table {
+	color: #8B919F;
+	background-color: #FFF;
+	border-spacing: inherit;
+	padding-bottom: 3rem;
+	position: relative;
+}
+
+td {
+	flex: 3;
+	line-height: 140%;
+	padding: 3rem 3rem 3rem 1rem;
+}
+
+th{
+	flex: 1;
+	padding: 3rem 1rem 3rem 3rem;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+thead {
+	background-color: #6F7E95;
+	color: #FFF;
+}
+
+tr {
+	border-bottom: 0.1rem solid #6F7E95;
+	display: flex;
+	position: relative;
 }
 
 /*****MEDIA QUERIES*****/
@@ -507,6 +583,15 @@ input::placeholder {
 
 	.listing-console-button {
 		margin: 0 1rem;
+	}
+
+	.listing-description {
+		margin-bottom: 1.5rem;
+		margin-right: 0;
+	}
+
+	.listing-specs {
+		flex-direction: column;
 	}
 
 	.page-data {
@@ -692,6 +777,19 @@ input::placeholder {
 
 	.graph-circle {
 		height: auto;
+	}
+
+	td {
+		padding: 1rem 2rem 2rem;
+	}
+
+	th {
+		padding: 2rem 2rem 1rem;
+	}
+
+	.job-description-row,
+	.salary-row {
+		flex-direction: column;
 	}
 }
 
