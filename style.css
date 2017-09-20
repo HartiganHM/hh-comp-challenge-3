@@ -328,6 +328,10 @@ input::placeholder {
 	transition: 0.25s border-bottom, 0.25s color;
 }
 
+.mobile-listing-console {
+	display:none;
+}
+
 /*****PAGE INFO*****/
 .page-info {
 	background-color: #EDF2F6;
@@ -566,6 +570,10 @@ input::placeholder {
 }
 
 @media screen and (max-width:650px) {
+	.listing-console {
+		display: none;
+	}
+
 	.listing-info-text {
 		text-align: center;
 	}
@@ -573,6 +581,47 @@ input::placeholder {
 	.listing-search {
 		flex-direction: column;
 		height: 10rem;
+	}
+
+	.mobile-aside {
+		color: #B2BDCF;
+		background-color: #354052;
+		border: 2px solid #5D6777;
+		font-family: 'Open Sans', Arial, sans-serif;
+		height: 5rem;
+		overflow: hidden;
+		text-align-last: center;
+		text-transform: uppercase;
+	}
+
+	.mobile-aside:hover {
+		background-color: #14A4FA;
+		border-color: #14A4F4;
+		color: #FFF;
+		transition: 0.25s background-color, 0.25s border-color, 0.25s color;
+	}
+
+	.mobile-listing-console {
+		color: #828594;;
+		background-color: #FFF;
+		border: none;
+		display: block;
+		flex: 1;
+		font-family: 'Open Sans', Arial, sans-serif;
+		height: 5rem;
+		overflow: hidden;
+		text-align-last: center;
+		text-transform: uppercase;
+	}
+
+	.mobile-listing-console:hover {
+		border-bottom: 0.5rem solid #14A4FA;
+		color: #000;
+		transition: 0.25s border-bottom, 0.25s color;
+	}
+
+	.mobile-listing-console-container {
+		display: flex;
 	}
 
 	.mobile-search-btn {
@@ -585,25 +634,8 @@ input::placeholder {
 		width: 3rem;
 	}
 
-	select {
-		color: #B2BDCF;
-		background-color: #354052;
-		border: 2px solid #5D6777;
-		font-family: 'Open Sans', Arial, sans-serif;
-		height: 5rem;
-		overflow: hidden;
-		text-transform: uppercase;
-	}
-
 	select:focus {
 		outline: none;
-	}
-
-	select:hover {
-		background-color: #14A4FA;
-		border-color: #14A4F4;
-		color: #FFF;
-		transition: 0.25s background-color, 0.25s border-color, 0.25s color;
 	}
 
 	.user-main,
@@ -623,6 +655,10 @@ input::placeholder {
 @media screen and (max-width: 400px) {
 	.listing-search-field {
 		display: none;
+	}
+
+	.listing-status {
+		font-size: 1.2rem;
 	}
 
 	.mobile-search-field {
