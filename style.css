@@ -626,6 +626,10 @@ tr {
 	justify-content: space-between;
 }
 
+.share-icon {
+	margin-right: 0.5rem;
+}
+
 .share-input {
 	display: flex;
 }
