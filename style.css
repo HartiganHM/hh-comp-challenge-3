@@ -450,7 +450,6 @@ input::placeholder {
 }
 
 .listing-share {
-	background-color: orange;
 	display: flex;
 	flex: 1;
 	flex-direction: column;
@@ -556,6 +555,14 @@ tr {
 }
 
 /*****SHARE LISTING SECTION****/
+.copy-link {
+	background-color: #45BAC3;
+	border: none;
+	color: #FFF;
+	height: 4rem;
+	padding: 0 1.5rem;
+}
+
 .fb-box {
 	background-color: #486BBD;
 }
@@ -567,25 +574,53 @@ tr {
 	align-self: stretch;
 	color: #FFF;
 	display: flex;
-	justify-content: space-between;
 	padding: 2rem 2rem;
 }
 
 .link-share-box {
 	align-self: stretch;
+	border-top: 0.1rem solid #6F7E95;
+	color: #6F7E95;
+	display: flex;
+	flex-direction: column;
+	line-height: 140%;
+	padding-top: 2rem;
 }
 
 .linkedin-box {
 	background-color: #037EBA;
 }
 
-.share-top,
 .share-bottom {
+	flex: 3;
+}
+
+.share-bottom, 
+.share-top {
 	align-items: center;
 	display: flex;
-	flex: 1;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-between;
+}
+
+.share-input {
+	display: flex;
+}
+
+.share-link-input {
+	border: none;
+	box-sizing: border-box;
+	flex: 1;
+	height: 4rem;
+	padding: 1rem;
+}
+
+.share-text {
+	margin: 2rem 0;
+}
+
+.share-top {
+	flex: 1;
 }
 
 .social-button {
