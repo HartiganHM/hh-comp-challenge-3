@@ -475,6 +475,15 @@ input::placeholder {
 		width: 10rem;
 	}
 
+	.listing-console {
+		justify-content: space-around;
+		padding: 0 1rem;
+	}
+
+	.listing-console-button {
+		margin: 0 1rem;
+	}
+
 	.user-categories {
 		border-bottom: 0.3rem inset #2C3749;
 		border-right: 0.3rem inset #5D6777;
@@ -518,6 +527,11 @@ input::placeholder {
 		padding: 0.5rem 1rem;
 	}
 
+	.listing-console-button {
+		font-size: 1.2rem;
+		margin: 0 0.5rem;
+	}
+
 	.listing-info {
 		flex-direction: column;
 	}
@@ -555,7 +569,7 @@ input::placeholder {
 	.listing-info-text {
 		text-align: center;
 	}
-	
+
 	.listing-search {
 		flex-direction: column;
 		height: 10rem;
