@@ -15,62 +15,106 @@
 			<div class="user-image"></div>
 			<p class="user-name">Torin Hartigan<i class="fa fa-angle-down user-drop-down" aria-hidden="true"></i></p>
 		</section>
-		<section class="user-main">
-			<dl>
-				<dt>Main</dt>
-				<dd class="aside-button"><i class="fa fa-home fa-lg aside-icon" aria-hidden="true"></i>Home</dd>
-				<dd class="aside-button"><i class="fa fa-paint-brush fa-lg aside-icon" aria-hidden="true"></i>Pieces</dd>
-				<dd class="aside-button"><i class="fa fa-file-text fa-lg aside-icon" aria-hidden="true"></i>Resume</dd>
-				<dd class="aside-button"><i class="fa fa-list-alt fa-lg aside-icon" aria-hidden="true"></i>Tasks</dd>
-				<dd class="aside-button"><i class="fa fa-calendar fa-lg aside-icon" aria-hidden="true"></i>Calendar</dd>
-		</section>
-		<section class="user-admin">
-			<dl>
-				<dt>Admin</dt>
-				<dd class="aside-button"><i class="fa fa-users fa-lg aside-icon" aria-hidden="true"></i>Users</dd>
-				<dd class="aside-button"><i class="fa fa-map-marker fa-lg aside-icon" aria-hidden="true"></i>Locations</dd>
-				<dd class="aside-button"><i class="fa fa-code-fork fa-lg aside-icon" aria-hidden="true"></i>Workflows</dd>
-				<dd class="aside-button"><i class="fa fa-book fa-lg aside-icon" aria-hidden="true"></i>Job Boards</dd>
-				<dd class="aside-button"><i class="fa fa-share-alt fa-lg aside-icon" aria-hidden="true"></i>Social</dd>
-		</section>
-		<section>
-			<dl class="user-categories">
-				<dt>Categories</dt>
-				<dd>
-					<lable class="checkbox-lable" for="checkbox"><i class="fa fa-check-square checkbox yellow" aria-hidden="true"></i></i>Administrative</lable>
-				</dd>
-				<dd>
-					<lable class="checkbox-lable" for="checkbox-2"><i class="fa fa-square checkbox blue" aria-hidden="true"></i>Design</lable>
-				</dd>
-				<dd>
-					<lable class="checkbox-lable" for="checkbox-3"><i class="fa fa-square checkbox red" aria-hidden="true"></i>Executive</lable>
-				</dd>
-				<dd>
-					<lable class="checkbox-lable" for="checkbox-4"><i class="fa fa-square checkbox green" aria-hidden="true"></i>Human Resources</lable>
-				</dd>
-		</section>
+		<div class="aside-container">
+			<section class="user-main">
+				<dl>
+					<dt>Main</dt>
+					<dd class="aside-button"><i class="fa fa-home fa-lg aside-icon" aria-hidden="true"></i>Home</dd>
+					<dd class="aside-button"><i class="fa fa-paint-brush fa-lg aside-icon" aria-hidden="true"></i>Pieces</dd>
+					<dd class="aside-button"><i class="fa fa-file-text fa-lg aside-icon" aria-hidden="true"></i>Resume</dd>
+					<dd class="aside-button"><i class="fa fa-list-alt fa-lg aside-icon" aria-hidden="true"></i>Tasks</dd>
+					<dd class="aside-button"><i class="fa fa-calendar fa-lg aside-icon" aria-hidden="true"></i>Calendar</dd>
+				</dl>
+			</section>
+
+			<select class="mobile-aside user-main-mobile">
+				<option value="Main">Main</option>
+				<option value="Home">Home</option>
+				<option value="Pieces">Pieces</option>
+				<option value="Resume">Resume</option>
+				<option value="Tasks">Tasks</option>
+				<option value="Calendar">Calendar</option>
+			</select>
+
+			<section class="user-admin">
+				<dl>
+					<dt>Admin</dt>
+					<dd class="aside-button"><i class="fa fa-users fa-lg aside-icon" aria-hidden="true"></i>Users</dd>
+					<dd class="aside-button"><i class="fa fa-map-marker fa-lg aside-icon" aria-hidden="true"></i>Locations</dd>
+					<dd class="aside-button"><i class="fa fa-code-fork fa-lg aside-icon" aria-hidden="true"></i>Workflows</dd>
+					<dd class="aside-button"><i class="fa fa-book fa-lg aside-icon" aria-hidden="true"></i>Job Boards</dd>
+					<dd class="aside-button"><i class="fa fa-share-alt fa-lg aside-icon" aria-hidden="true"></i>Social</dd>
+				</dl>
+			</section>
+
+			<select class="mobile-aside user-admin-mobile">
+				<option value="Admin">Admin</option>
+				<option value="Users">Users</option>
+				<option value="Locations">Locations</option>
+				<option value="Workflows">Workflows</option>
+				<option value="Job Board">Job Boards</option>
+				<option value="Social">Social</option>
+			</select>
+
+			<section>
+				<dl class="user-categories">
+					<dt>Categories</dt>
+					<dd>
+						<lable class="checkbox-lable" for="checkbox"><i class="fa fa-check-square checkbox yellow" aria-hidden="true"></i></i>Administrative</lable>
+					</dd>
+					<dd>
+						<lable class="checkbox-lable" for="checkbox-2"><i class="fa fa-square checkbox blue" aria-hidden="true"></i>Design</lable>
+					</dd>
+					<dd>
+						<lable class="checkbox-lable" for="checkbox-3"><i class="fa fa-square checkbox red" aria-hidden="true"></i>Executive</lable>
+					</dd>
+					<dd>
+						<lable class="checkbox-lable" for="checkbox-4"><i class="fa fa-square checkbox green" aria-hidden="true"></i>Human Resources</lable>
+					</dd>
+				</dl>
+			</section>
+
+			<select class="mobile-aside user-categories-mobile">
+				<option value="Categories">Categories</option>
+				<option value="Administrative">Administrative</option>
+				<option value="Design">Design</option>
+				<option value="Executive">Executive</option>
+				<option value="Human Resources">Human Resources</option>
+			</select>
+		</div>
 	</aside>
 
 	<main>
 		<section class="container">
 			<nav class="listing-search">
-				<div class="listing-search-btn user-console-access">
-					<i class="fa fa-caret-left user-console-arrow" aria-hidden="true"></i>
-					<i class="fa fa-bars fa-lg" aria-hidden="true"></i>
-				</div>
-				<div class="search-icon-container">
-					<i class="fa fa-search search-icon fa-lg" aria-hidden="true"></i>
-				</div>
-				<input class="listing-search-field" type="text" name="listing-search" placeholder="Search for a job, taks, or piece of artwork">
-				<div id="border-fix" class="listing-search-btn add-user">
-					<i class="fa fa-user-plus fa-lg" aria-hidden="true"></i>
-				</div>
-				<div id="border-fix" class="listing-search-btn add-event">
-					<i class="fa fa-calendar-plus-o fa-lg" aria-hidden="true"></i>
-				</div>
-				<div class="listing-search-btn see-pieces fa-lg">
-					<i class="fa fa-bug fa-lg" aria-hidden="true"></i>
-				</div>
+				<section class="listing-left-container">
+					<div class="listing-search-btn user-console-access">
+						<i class="fa fa-caret-left user-console-arrow" aria-hidden="true"></i>
+						<i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+					</div>
+
+					<div class="search-icon-container">
+						<i class="fa fa-search search-icon fa-lg" aria-hidden="true"></i>
+					</div>
+
+					<input class="listing-search-field" type="text" name="listing-search" placeholder="Search for a job, tasks, or piece of artwork">
+
+					<input class="mobile-search-field" type="text" name="listing-search" placeholder="Search">
+				</section>
+
+				<section class="listing-right-container">
+					<div id="border-fix" class="listing-search-btn mobile-search-btn add-user">
+						<i class="fa fa-user-plus fa-lg" aria-hidden="true"></i>
+					</div>
+
+					<div id="border-fix" class="listing-search-btn mobile-search-btn add-event">
+						<i class="fa fa-calendar-plus-o fa-lg" aria-hidden="true"></i>
+					</div>
+
+					<div class="listing-search-btn mobile-search-btn see-pieces fa-lg">
+						<i class="fa fa-bug fa-lg" aria-hidden="true"></i>
+					</div>
+				</section>
 			</nav>
 
 			<header class="listing-info">
@@ -105,6 +149,19 @@
 				<p class="listing-console-button">Activity</p>
 				<p class="listing-console-button">Broadcast</p>
 				<p class="listing-console-button">Notifications</p>
+			</nav>
+
+			<nav class="mobile-listing-console-container">
+				<select class="mobile-listing-console">
+					<option value="Listing Options">Listing Options</option>
+					<option value="Summary">Summary</option>
+					<option value="Applicants">Applicants</option>
+					<option value="Job Board">Job Board</option>
+					<option value="Interviews">Interviews</option>
+					<option value="Activity">Activity</option>
+					<option value="Broadcast">Broadcast</option>
+					<option value="Notifications">Notifications</option>
+				</select>
 			</nav>
 
 			<section class="page-info">
