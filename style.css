@@ -557,14 +557,29 @@ tr {
 /*****SHARE LISTING SECTION****/
 .copy-link {
 	background-color: #45BAC3;
-	border: none;
+	border: 0.1rem solid #45BAC3;
+	box-sizing: border-box;
 	color: #FFF;
 	height: 4rem;
 	padding: 0 1.5rem;
 }
 
+.copy-link:hover {
+	background-color: #FFF;
+	color: #45BAC3;
+	transition: 0.25s background-color, 0.25s color;
+}
+
 .fb-box {
 	background-color: #486BBD;
+	border: 0.1rem solid #486BBD;
+}
+
+.fb-box:hover {
+	background-color: #FFF;
+
+	color: #486BBD;
+	transition: 0.25s background-color, 0.25s color;
 }
 
 .fb-box,
@@ -572,6 +587,7 @@ tr {
 .linkedin-box {
 	align-items: flex-start;
 	align-self: stretch;
+	box-sizing: border-box;
 	color: #FFF;
 	display: flex;
 	padding: 2rem 2rem;
@@ -589,6 +605,13 @@ tr {
 
 .linkedin-box {
 	background-color: #037EBA;
+	border: 0.1rem solid #037EBA;
+}
+
+.linkedin-box:hover {
+	background-color: #FFF;
+	color: #037EBA;
+	transition: 0.25s background-color, 0.25s color;
 }
 
 .share-bottom {
@@ -633,6 +656,13 @@ tr {
 
 .twitter-box {
 	background-color: #01A8EF;
+	border: 0.1rem solid #01A8EF;
+}
+
+.twitter-box:hover {
+	background-color: #FFF;
+	color: #01A8EF;
+	transition: 0.25s background-color, 0.25s color;
 }
 
 /*****MEDIA QUERIES*****/
