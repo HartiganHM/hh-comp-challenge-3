@@ -477,6 +477,20 @@ input::placeholder {
 	transition: 0.25s background-color;
 }
 
+.hiring-lead {
+	align-items: center;
+	display: flex;
+}
+
+.hiring-lead-image {
+	background-image: url('images/hugh-m-hartigan.jpg');
+	background-size: cover;
+	border-radius: 5rem;
+	height: 5rem;
+	margin-right: 1rem;
+	width: 5rem;
+}
+
 .salary-column {
 	padding-bottom: 0;
 }
