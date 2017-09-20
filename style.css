@@ -455,6 +455,28 @@ input::placeholder {
 	margin-left: 1.5rem;
 }
 
+/*****DIVIDER SECTION*****/
+.divider-section {
+	padding: 0 3rem;
+}
+
+hr.dividing-line {
+	border-top: 0.1rem solid #6F7E95;
+	text-align: center;
+}
+hr.dividing-line:after {
+	background: #FFF;
+	border: 0.1rem solid #6F7E95;
+	border-radius: 3rem;
+	content: '';
+	color: #6F7E95;
+	display: inline-block;
+	height: 3rem;
+	position: relative;
+	top: -1.5rem;
+	width: 3rem;
+}
+
 /*****JOB DESCRIPTION*****/
 .approved-salary {
 	font-weight: 700;
