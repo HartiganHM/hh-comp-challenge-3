@@ -14,4 +14,4 @@ Overally, I am very pleased with what I accomplished. While all of the spacing a
 ![Static Comp Challenge 3 Original](https://i.imgur.com/sT6eSxz.jpg)
 ![Hugh Hartigan Static Comp Challenge 3](https://i.imgur.com/Tc87J1L.png)
 
-![Link to GitPage for Hugh Hartigan Static Comp Challenge 3](https://hartiganhm.github.io/hh-comp-challenge-3/)
+[Link to GitPage for Hugh Hartigan Static Comp Challenge 3](https://hartiganhm.github.io/hh-comp-challenge-3/)
