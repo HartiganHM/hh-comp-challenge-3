@@ -352,6 +352,7 @@ input::placeholder {
 	display: flex;
 	flex: 1;
 	flex-direction: column;
+	height: 25rem;
 	justify-content: space-around;
 }
 
@@ -479,6 +480,10 @@ input::placeholder {
 		width: 10rem;
 	}
 
+	.graph-circle {
+		margin-bottom: 3rem;
+	}
+
 	.listing-console {
 		justify-content: space-around;
 		padding: 0 1rem;
@@ -486,6 +491,10 @@ input::placeholder {
 
 	.listing-console-button {
 		margin: 0 1rem;
+	}
+
+	.page-data {
+		flex-direction: column;
 	}
 
 	.user-categories {
@@ -648,6 +657,25 @@ input::placeholder {
 	.user-admin-mobile,
 	.user-categories-mobile {
 		display: block;
+	}
+
+}
+
+@media screen and (max-width:560px) {
+	.circle-container {
+		flex-direction: column;
+	}
+
+	.circle-graph {
+		margin: 1rem;
+	}
+
+	.circle-totals {
+		margin-top: 1rem;
+	}
+
+	.graph-circle {
+		height: auto;
 	}
 
 }
